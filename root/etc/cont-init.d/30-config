@@ -207,7 +207,6 @@ DUDE"
 # ${PEER_ID}
 PublicKey = $(cat /config/${PEER_ID}/publickey-${PEER_ID})
 PresharedKey = $(cat /config/${PEER_ID}/presharedkey-${PEER_ID})
-
 AllowedIPs = ${CLIENT_IP}/32
 
 DUDE
